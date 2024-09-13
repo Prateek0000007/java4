@@ -1,22 +1,8 @@
-import java.util.Scanner;
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
-public class EvenOddChecker{
+class HelloWorld {
     public static void main(String[] args) {
-        // Create a Scanner object to get input from the user
-        Scanner scanner = new Scanner(System.in);
-
-        // Prompt the user to enter a number
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
-
-        // Check if the number is even or odd
-        if (number % 2 == 0) {
-            System.out.println(number + " is even.");
-        } else {
-            System.out.println(number + " is odd.");
-        }
-
-        // Close the scanner
-        scanner.close();
+        System.out.println("Try programiz.pro");
     }
 }
